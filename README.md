@@ -1,7 +1,7 @@
 ShadowsocksR for Windows
 =======================
 
-[![Build Status]][Appveyor]
+[![Build status](https://ci.appveyor.com/api/projects/status/wh3w5ibw8q0hymti?svg=true)](https://ci.appveyor.com/project/zyh001/shadowsocksr-csharp)
 
 #### Download
 
