@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 
@@ -54,6 +54,14 @@ namespace Shadowsocks.Obfs
             foreach (string method in AuthChain_b.SupportedObfs())
             {
                 _registeredObfs.Add(method, typeof(AuthChain_b));
+            }
+            foreach (string method in AuthChain_c.SupportedObfs())
+            {
+                _registeredObfs.Add(method, typeof(AuthChain_c));
+            }
+            foreach (string method in AuthChain_d.SupportedObfs())
+            {
+                _registeredObfs.Add(method, typeof(AuthChain_d));
             }
         }
 
